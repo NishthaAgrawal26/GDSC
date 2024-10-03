@@ -1,5 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: 700;
     margin: 0;
     padding: 0;
     display: flex;
@@ -45,7 +50,6 @@ body {
     border-top-left-radius: 10%;
     background-image: url("https://i.pinimg.com/originals/58/b0/a2/58b0a2d883af5a1ad05624d24cec4003.gif");
     background-size: cover;
-    font-family: Courier New;
 }
 
 .cell-2 {
@@ -54,7 +58,6 @@ body {
     grid-row: 1/5;
     background-image: url("https://i.pinimg.com/736x/82/bd/58/82bd58749ae10e48fa03fc3c996c8b5b.jpg");
     background-size: cover;
-    font-family: Courier New;
     
 }
 .cell-3 {
@@ -64,13 +67,11 @@ body {
     border-top-right-radius: 10%;
     background-image: url("https://i.pinimg.com/564x/c4/25/d9/c425d9daee42851d01e3d9fe8fb6935b.jpg");
     background-size: cover;
-    font-family: Courier New;
 }
 
 .cell-4 {
     grid-column: 8/15;
     grid-row: 5/11;
-    font-family: comic sans ms;
     background-image: url("https://i.pinimg.com/originals/fe/0a/d4/fe0ad4752abbeadcc4a590cbcac37b31.gif");
     background-size: cover;
     color: #ffffff;
@@ -82,7 +83,6 @@ body {
     border-bottom-left-radius: 10%;
     background-image: url("https://i.pinimg.com/736x/8e/7a/8b/8e7a8b036356a0211d2d7d16c08505a3.jpg");
     background-size: cover;
-    font-family: Courier New;
 }
 
 .cell-6 {
@@ -91,7 +91,6 @@ body {
     background-image: url("https://i.pinimg.com/originals/9e/94/73/9e9473a81f9fa3e4dfb9a66a1739fce6.gif");
     background-size: cover;
     border-bottom-right-radius: 10%;
-    font-family: Courier New;
 }
 .cell:before {
     content: '';
@@ -105,7 +104,6 @@ body {
     transition: all 0.5s;
     transform: translate(-50%, -50%) scale(0);
     z-index: 0;
-    font-family: Courier New;
 }
 
 .cell:hover:before {
