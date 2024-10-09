@@ -1,4 +1,4 @@
-body {
+ body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
   margin: 0;
@@ -133,20 +133,20 @@ footer {
 
 .skills-container {
   display: flex;
-  justify-content: space-around; /* Aligns cards in a line */
+  justify-content: space-around; 
   margin: 20px 0;
 }
 
 .skill-card {
-  background: linear-gradient(135deg, #6a5acd, #ff7f50); /* Gradient background */
-  color: #fff; /* White text */
-  border: 2px solid transparent; /* No solid border */
+  background: linear-gradient(135deg, #6a5acd, #ff7f50); 
+  color: #fff; 
+  border: 2px solid transparent; 
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  width: 30%; /* Adjust width as needed */
+  width: 30%; 
   transition: transform 0.3s, box-shadow 0.3s;
-  margin: 15px; /* Add margin around each skill card */
+  margin: 15px; 
 }
 
 .skill-card:hover {
@@ -156,20 +156,20 @@ footer {
 
 .projects-container {
   display: flex;
-  justify-content: space-between; /* Aligns project cards in a line */
+  justify-content: space-between; 
   margin: 20px 0;
 }
 
 .project-card {
-  background: linear-gradient(135deg, #6a5acd, #ff7f50); /* Gradient background */
-  color: #fff; /* White text */
-  border: 2px solid transparent; /* No solid border */
+  background: linear-gradient(135deg, #6a5acd, #ff7f50); 
+  color: #fff; 
+  border: 2px solid transparent; 
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  width: 48%; /* Adjust width for two cards side by side */
+  width: 48%; 
   transition: transform 0.3s, box-shadow 0.3s;
-  margin: 15px; /* Add margin around each project card */
+  margin: 15px; 
 }
 
 .project-card:hover {
@@ -199,7 +199,7 @@ footer {
 
 
 html {
-  scroll-behavior: smooth; /* Enables smooth scrolling */
+  scroll-behavior: smooth; 
 }
 section#contact ul {
   list-style-type: none;
